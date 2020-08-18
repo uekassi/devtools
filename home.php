@@ -14,6 +14,9 @@
 		.jumbotron {
 			background-color: transparent;
 		}
+		#adobe .jumbotron {
+			box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
+		}
 	</style>
 	<?php
 		if(isset($_POST['like'])) {
@@ -70,6 +73,7 @@
 						<nav>
 							<ul>
 								<li><a href="#htmlTags">Html Tags</a></li>
+								<li><a href="#adobe">Adobe Tools</a></li>
 							</ul>
 						</nav>
 					</p>
@@ -826,6 +830,31 @@
 				</div>
 			</div>
 		</center>
+	</section>
+
+	<section class="page thirdPage" id="adobe">
+		<div class="jumbotron">
+			<p>
+				<h1>Adobe Tools</h1>
+				Has large software on bureautics
+			</p>
+		</div>
+
+		<div class="jumbotron">
+			<p>
+				<h2>Adobe Photoshop</h2>
+				<h3>Presentation : Adobe Photoshop</h3>
+				Adobe photoshop is a software use to retouch photos that can be use in Window and on MacOS. It offers to users the possibility to create, to ameliorate or to modify images, photos or illustrations.<br>
+				With photoshop you can change the background, simulate a real painting or create an alternative view of the universe. It is the most use software for photo editing, image manipulation and retouch of many type of image files or video files. Photoshop tools help us to modify both individuals images and group images. There is many versions of the software : <b>Photoshop CC</b>, <b>Photoshop Elements</b> and <b>Photoshop Lightroom</b>. Adobe photoshop is disponible from <b>23.99 euros</b> per mont with a Creative Cloud subscription.
+			</p>
+		</div>
+
+		<div class="jumbotron">
+			<p>
+				<h3>Who uses Photoshop</h3>
+				Adobe Photoshop is a tool essentially for designers, web developers, graphists, photographs and creation professionnals. It is largely use for image edition, retouch, creation of images composition, websites models and effects add.Numeric or numerise images can be modified for an online use or on paper. Websites models can be design on photoshop and their conception can be finalize by web developers by coding.
+			</p>
+		</div>
 	</section>
 </body>
 </html>
