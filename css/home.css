@@ -1,0 +1,87 @@
+.topElements {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	z-index: 2;
+}
+.topElements > div {
+	display: inline-table;
+}
+div  > .btn {
+	box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
+	padding: 15px;
+	border-radius: 45px;
+	background-color: white;
+}
+.topElements > div > form > button {
+	box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
+	padding: 15px;
+	border-radius: 45px;
+	background-color: white;
+	color: rgba(0,0,0,0.2);
+} 
+.topElements > div > form > button:hover {
+	color: red;
+} 
+/* Propriétés CSS pour toutes les pages */
+.page {
+	height: auto;
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pageContent > div {
+	box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
+	padding: 10px;
+	margin-bottom: 40px;
+}
+@media screen and (min-width: 600px){
+	.pageContent > div {
+		display: inline-block;
+		width: 40%;
+		height: auto;
+		overflow: auto;
+	}
+}
+.pageContent div > h2 {
+	font-weight: 600;
+}
+ul li {
+	list-style: none;
+}
+nav ul li {
+	list-style: none;
+}
+nav ul li a {
+	color: black;
+}
+nav ul li a:hover {
+	color: #dc3545;
+}
+.xs-text {
+	font-size: 20px;
+}
+.sm-text {
+	font-size: 25px;
+}
+.md-text {
+	font-size: 30px;
+}
+.lg-text {
+	font-size: 35px;
+}
+
+/* CSS por la premiere page */
+.firstPage {
+	background-image: linear-gradient(to top right,white, #007bff);
+}
+.pageTitle h1 , h2 , h3 , h4 , h5, h6 {
+	font-family: "calibri light";
+}
+
+/*CSS pour la deuxieme page*/
+.scndPage {
+	/*background-image: linear-gradient(to top right, white, #f8f9fa);*/
+}
